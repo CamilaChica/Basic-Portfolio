@@ -1,0 +1,182 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Camila Chica/contact</title>
+    <style>
+      body {
+        margin: 0px;
+        padding: 0px;
+        width: 1263px;
+        background-image: url("./assets/images/full-bloom.png")
+      }
+      * {
+        box-sizing: border-box;
+      }
+      .header {
+        height: 55px;
+        margin-top: 0px;
+        margin-right: 0px;
+        margin-left: 0px;
+        padding: 20px;
+        padding-bottom: 0px;
+        background-color: #ffffff;
+      }
+      a {
+        text-decoration: none;
+      }
+      .links {
+        display: inline-block;
+        float: right;
+      }
+      .portfolio1 {
+        padding-left: 20px;
+        padding-right: 20px;
+        margin-left: 20px;
+        margin-right: 20px;
+        border-right: solid silver 1px;
+        border-left: solid silver 1px;
+      }
+      h1 {
+        color: white;
+        font-family: 'Georgia';
+        background-color: #4aaaa5;
+        font-size: 22px;
+        padding: 10px;
+        width: 20px;
+        display: inline;
+        margin: 0px;
+        margin-left: 6em;
+      }
+      h2 {
+        color: #4aaaa5;
+        font-family: 'Georgia';
+        border-bottom-style: solid;
+        border-bottom-color: silver;
+        padding-bottom: 5px;
+
+      }
+      .container {
+        background-color: #ffffff;
+        margin-left: 13em;
+        margin-right: 13em;
+        margin-bottom: 5em;
+        opacity: 100%;
+        padding: 20px;
+      }
+      footer {
+        text-align: center;
+        color: white;
+        font-size: 12px;
+        background-color: gray;
+        border-top-style: solid;
+        border-top-color: #4aaaa5;
+        border-top-width: 5px;
+        padding-top: 20px;
+        bottom: 0;
+      }
+      section {
+          position: relative;
+          display: inline;
+      }
+      .text-block {
+          width: 400px;
+          height: 100px;
+          position: absolute;
+          bottom: 20px;
+          background-color: #4aaaa5;
+          color: white;
+          padding-left: 20px;
+          padding-right: 20px;
+          opacity: 0.8;
+      }
+      .text-block2 {
+          width: 400px;
+          height: 100px;
+          position: absolute;
+          bottom: 20px;
+          right: 0px;
+          background-color: #4aaaa5;
+          color: white;
+          padding-left: 20px;
+          padding-right: 20px;
+          opacity: 0.8;
+      }
+
+      .row:after {
+        content: "";
+        display: table;
+        clear: both;
+      }
+      @media screen and (max-width: 600px) {
+        .column, input[type=submit] {
+          width: 100%;
+          margin-top: 0;
+        }
+      }
+    </style>
+  </head>
+  <body>
+    <div class="header">
+      <h1>Camila Chica</h1>
+      <div class="links">
+        <a href="index.html">About</a> <a class="portfolio1" href="portfolio.html">Portfolio</a> <a href="contact.html">Contact</a>
+      </div>
+    </div>
+    <div class="container">
+      <div style="text-align:left;">
+        <h2>Portfolio</h2>
+        <form action="/action_page.php">            
+          <section class="section1">
+            <a href="javascript:void(0);">
+              <img src="assets\images\projects_1.jpg" style="width:400px;"/>
+            </a>
+            <div class="text-block"> 
+              <h4>Hangman</h4>
+              <p></p>
+            </div>
+          </section>
+          <section class="section1">
+            <a href="javascript:void(0);">
+              <img src="assets\images\projects_2.jpg" style="width:400px;"/>
+            </a>
+            <div class="text-block2"> 
+              <h4>RPG Game</h4>
+              <p></p>
+            </div>
+          </section>
+          <section class="section1">
+            <a href="javascript:void(0);">
+              <img src="assets\images\projects_3.jpg" style="width:400px;"/>
+            </a>
+            <div class="text-block"> 
+               <h4>Trivia Game</h4>
+               <p></p>
+            </div>
+          </section>
+          <section class="section1">
+            <a href="javascript:void(0);">
+              <img src="assets\images\projects_4.jpg" style="width:400px;"/>
+            </a>
+            <div class="text-block2"> 
+              <h4>Rutgers Info Widget</h4>
+              <p></p>
+            </div>
+          </section>
+          <section class="section1">
+            <a href="javascript:void(0);">
+              <img src="assets\images\projects_5.jpg" style="width:400px;"/>
+            </a>
+            <div class="text-block"> 
+              <h4>Rock Paper Scissors</h4>
+              <p></p>
+            </div>
+          </section>
+        </form>
+      </div>
+    </div>
+    <footer>
+      Copyright ©
+    </footer>
+  </body>
+</html>
